@@ -1,7 +1,5 @@
 provider "aws" {
 region = var.myregion
-access_key = var.access-key
-secret_key = var.secret-key
 }
 
 resource "aws_vpc" "myvpc" {
