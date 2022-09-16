@@ -1,15 +1,8 @@
 variable "myregion" {
 type = string
-description = "Your AWS Region Name"
+description = "us-east-1"
 }
 
-variable "secret-key" {
-sensitive = true
-}
-
-variable "access-key"{
-sensitive = true
-}
 
 variable "mycidr" {
 default = "100.0.0.0/16"
